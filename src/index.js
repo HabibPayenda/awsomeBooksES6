@@ -7,8 +7,6 @@ import luxon from './modules/luxun.js';
 const { DateTime } = luxon;
 const now = DateTime.now();
 
-console.log(now.c);
-
 const list = document.getElementById('list');
 const main = document.getElementById('main');
 const time = document.getElementById('time');
