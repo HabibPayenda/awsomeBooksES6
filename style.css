@@ -64,8 +64,9 @@ body {
 
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  padding: 1px 20px;
 }
 
 .main {

@@ -2,15 +2,25 @@ import listbooks from './modules/localStorage.js';
 import listNavMenu from './modules/listMenuComponent.js';
 import addMenu from './modules/addMenuComponent.js';
 import contactNavMenu from './modules/contactMenuComponent.js';
+import luxon from './modules/luxun.js';
+
+const { DateTime } = luxon;
+const now = DateTime.now();
+
+console.log(now.c);
 
 const list = document.getElementById('list');
 const main = document.getElementById('main');
+const time = document.getElementById('time');
 
 const listMenu = document.getElementById('listMenu');
 const addNewMenu = document.getElementById('addNewMenu');
 const contactMenu = document.getElementById('contactMenu');
 
 let menu = '';
+
+const timeString = `${now.c.year}/${now.c.month}/${now.c.day}  ${now.c.hour}:${now.c.minute}:${now.c.second}`;
+time.innerText = timeString;
 
 // eslint-disable-next-line no-constant-condition
 if (menu === '' || 'list') {
