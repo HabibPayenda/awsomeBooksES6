@@ -2,11 +2,11 @@
 
 # AwesomeBooks ES6
 
-This project is about to give us a handle as a student on how to make interactive a web site.
+AwesomeBooks is a small app where we can keep trak of home library, the main features it provides are: - Adding a new book. - Editing a book title. - Removing a book. - Keeping track of the books in the browser local storage.
 
 ## Built With
 
-- Html, CSS & JavaScript
+- Html, CSS & JavaScript(Es6)
 
 
 ## Getting Started
